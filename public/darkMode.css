@@ -1,0 +1,50 @@
+/* Variabel Warna */
+:root {
+  --dark: rgb(39, 39, 39);
+  --light: white;
+}
+
+body i {
+  font-size: 21px;
+  cursor: pointer;
+}
+body i:hover {
+  color: yellowgreen;
+}
+
+.darkMode {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.darkMode nav {
+  background-color: var(--dark) !important;
+}
+
+.darkMode .brandNama,
+.darkMode .nav-link {
+  color: var(--light) !important;
+}
+.iconDarkMode {
+  transition: 0.5s;
+}
+
+.flip {
+  transform: rotate(360deg);
+}
+
+.darkMode i.iconMenu {
+  color: var(--light) !important;
+}
+
+i.iconMenu {
+  transition: 0.2s;
+}
+
+.flipMenu {
+  transform: rotate(90deg);
+}
+
+i.iconMenu {
+  border: none;
+}

@@ -1,0 +1,48 @@
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* text Animasi  */
+.brandNama ul {
+  display: flex;
+  list-style: none;
+  font-size: 24px;
+}
+.brandNama ul li {
+  transition: 0.8s;
+}
+a.brandNama {
+  text-decoration: none;
+  color: #212529;
+  font-weight: 800;
+}
+.brandNama ul:hover li {
+  animation: loncat 0.3s;
+}
+.brandNama ul:hover li:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.brandNama ul:hover li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.brandNama ul:hover li:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.brandNama ul:hover li:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.brandNama ul:hover li:nth-child(5) {
+  animation-delay: 0.5s;
+}
+/* Text Animasi Brand End */
+@keyframes loncat {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

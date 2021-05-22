@@ -1,0 +1,9 @@
+
+setState() merencanakan suatu pembaruan ke suatu state objek komponen.
+Ketika state berubah, komponen merespons dengan me-render ulang.
+
+props (kependekan dari “properti”) dan state adalah objek JavaScript biasa. 
+Meskipun keduanya menyimpan informasi yang mempengaruhi keluaran dari render,
+ keduanya berbeda satu sama lain: props diteruskan ke komponen (mirip dengan function parameters) 
+sedangkan state dikelola dalam komponen (mirip dengan variabel yang dideklarasikan dalam suatu function).
+

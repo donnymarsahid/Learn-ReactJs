@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/* Text Animasi Brand */
+.brandNama ul {
+  display: flex;
+  list-style: none;
+  font-size: 24px;
+}
+.brandNama ul li {
+  transition: 0.8s;
+}
+a.brandNama {
+  text-decoration: none;
+  color: #212529;
+  font-weight: 800;
+}
+.brandNama ul:hover li {
+  animation: loncat 0.3s;
+}
+.brandNama ul:hover li:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.brandNama ul:hover li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.brandNama ul:hover li:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.brandNama ul:hover li:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.brandNama ul:hover li:nth-child(5) {
+  animation-delay: 0.5s;
+}
+@keyframes loncat {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* Text Animasi Brand End */
+/* darkmode */
+body.darkMode {
+  background-color: rgb(29, 27, 27);
+  color: white;
+}
+
+/* end dark mode  */
+
+i.fa-moon {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+/* Introduce */
+.introduce {
+  margin-top: 90px;
+}
+
+.introduce h4 {
+  font-weight: 800;
+}
+
+/* Sosmed */
+.sosmed h4 {
+  margin-top: 30px;
+}
+
+.sosmedIcon {
+  margin-top: 10px;
+}
+
+/* icon */
+
+.tombol i {
+  font-size: 30px;
+  margin-right: 10px;
+  color: rgb(65, 65, 65);
+  width: 60px;
+  height: 60px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 30%;
+  text-align: center;
+  line-height: 60px;
+  transition: all 0.2s;
+}
+
+.tombol i:hover {
+  font-size: 30px;
+  margin-right: 10px;
+  color: rgb(253, 253, 253);
+  width: 60px;
+  height: 60px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 30%;
+  text-align: center;
+  line-height: 60px;
+}
+
+/* portfolio */
+.portfolio .btn,
+.portfolio2 .btn {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(65, 64, 64);
+}
+
+.portfolio {
+  margin-bottom: 50px;
+}
+
+.container.portfolioz {
+  margin-top: 50px;
+}
+
+/* Footer */
+footer {
+  box-shadow: 0 -2px 2px rgb(0, 0, 0, 0.3);
+}
+
+/* DESKTOP MODE */
+@media (min-width: 992px) {
+  /* portfolio */
+  .portfolio .btn,
+  .portfolio2 .btn {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(39, 39, 39);
+  }
+
+  .portfolio {
+    margin-bottom: 50px;
+  }
+  .brandNama {
+    margin-bottom: -10px;
+    padding-right: 10px;
+  }
+}
+
+/* Tablet dan Mobile */
+@media (max-width: 991px) {
+  .brandNama {
+    margin-left: -50px;
+    margin-bottom: -10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+}

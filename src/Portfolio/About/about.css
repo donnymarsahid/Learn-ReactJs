@@ -1,0 +1,11 @@
+body p {
+  font-size: 16px;
+}
+
+body ul li {
+  list-style: none;
+}
+
+.about {
+  margin-top: 100px;
+}
